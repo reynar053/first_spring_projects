@@ -2,11 +2,10 @@
 <html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
-    <title>Hello</title>
+    <title>Person</title>
 </head>
 <body>
-<h1>Hello</h1>
-<p th:text="${message}"></p>
-<a href="/game/bye">Go to the bye page</a>
+<p th:text="${person.getName()}">VALUE</p>
+<p th:text="${person.getId()}">VALUE</p>
 </body>
 </html>
